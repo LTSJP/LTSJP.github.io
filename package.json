@@ -1,0 +1,23 @@
+{
+  "name": "LTSJP.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LTSJP/LTSJP.github.io.git"
+  },
+  "keywords": [],
+  "author": "LTS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LTSJP/LTSJP.github.io/issues"
+  },
+  "homepage": "https://github.com/LTSJP/LTSJP.github.io#readme",
+  "dependencies": {
+    "vue": "^2.5.2"
+  }
+}
