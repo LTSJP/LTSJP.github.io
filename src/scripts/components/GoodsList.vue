@@ -4,8 +4,10 @@
 			<router-link to="/adpage" tag="img" :src="update"></router-link>
 		</div>
 		<div class="list">
-			<ul>
-				<router-link to="/adpage" tag="li" v-for="(val,i) in goodsList" :key="i" >
+			<ul v-infinite-scroll="loadMore"
+infinite-scroll-disabled="loading"
+infinite-scroll-distance="10" >
+				<router-link to="/mine" tag="li" v-for="(val,i) in goodsList" :key="i" >
 					<img v-lazy="val.pic_url"/>
 					<p>{{val.coupon_tips}}</p>
 					<p>
@@ -22,6 +24,12 @@
 </template>
 
 <script>
+	import Vue from 'vue/dist/vue'
+	import 'mint-ui/lib/style.css'
+	import axios from 'axios'
+	import { InfiniteScroll } from 'mint-ui';
+
+	Vue.use(InfiniteScroll);
 	export default {
 	  props: {
 	    goodsList: {
@@ -38,6 +46,18 @@
 
 	    }
 	  },
+		methods: {
+			loadMore() {
+				this.loading = true;
+				setTimeout(() => {
+					axios.get('./vip/shoesgoods.php')
+		        .then((res)=>{
+		          this.goodsList = this.goodsList.concat(res.data.data.goods)
+		        })
+						this.loading = false;
+				}, 2500);
+				}
+		},
 		mounted(){
 
 		}
