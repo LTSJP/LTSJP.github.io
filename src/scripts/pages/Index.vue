@@ -8,8 +8,8 @@
 </template>
 
 <script>
-	import '../assets/iconfont/iconfont.ttf'
-	import '../assets/iconfont/iconfont.woff'
+	import '../../assets/iconfont/iconfont.ttf'
+	import '../../assets/iconfont/iconfont.woff'
 	import VueRouter from 'vue-router'
 	export default{
 		data(){

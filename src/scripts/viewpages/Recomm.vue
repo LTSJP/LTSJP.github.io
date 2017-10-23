@@ -1,5 +1,6 @@
 <template>
-	<div class="recomm">
+	<div class="recomm" v-if="!isShowloading">
+	<mt-loadmore :top-method="loadTop" :bottom-method="loadBottom" :bottom-all-loaded="allLoaded" @top-status-change="handleTopChange" ref="loadmore" >
 		<!--banner-->
 		<div class="banner">
 			<mt-swipe :auto="4000">
@@ -30,8 +31,12 @@
 				<div class="timelimitedbuy-right">
 					<router-link to="/adpage" tag="img" :src="timelimitedbuy_img2"></router-link>
 					<div class="timelimitedbuy-right-bottom">
-						<router-link to="/adpage" tag="img" :src="timelimitedbuy_img3"></router-link>
-						<router-link to="/adpage" tag="img" :src="timelimitedbuy_img4"></router-link>
+						<router-link to="/adpage" tag="div">
+							<img :src="timelimitedbuy_img3"/>
+						</router-link>
+						<router-link to="/adpage" tag="div">
+							<img :src="timelimitedbuy_img4"/>
+						</router-link>
 					</div>
 				</div>
 			</div>
@@ -41,7 +46,7 @@
 			</div>
 		</div>
 		<!--商品列表-->
-		<GoodsList :goodsList="'recommlist'" :upDate="update"></GoodsList>
+		<GoodsList :goodsListUrl="'recommlist'" :upDate="update"></GoodsList>
 		<!--分类-->
 		<div class="sort">
 			<ul>
@@ -49,22 +54,42 @@
 			</ul>
 		</div>
 		<!--商品列表2-->
-		<GoodsList :goodsList="'recommlist'" :upDate="update"></GoodsList>
+		<GoodsList :goodsListUrl="'recommlist'" :upDate="update" :refreshUrl="'recommlist-refresh'"></GoodsList>
+		<!--<div class="list">
+			<ul  v-infinite-scroll="loadMore"
+  infinite-scroll-disabled="loading"
+  infinite-scroll-distance="10">
+				<router-link to="/adpage" tag="li" v-for="(val,i) in goodslist" :key="i" >
+					<img v-lazy="val.pic_url"/>
+					<p>{{val.coupon_tips}}</p>
+					<p>
+						<span>{{val.title}}</span>
+						<i v-if="val.time_left">{{val.time_left}}</i>
+					</p>
+					<div class="shop_logo" v-if="val.logo_url">
+						<img :src="val.logo_url"/>
+					</div>
+				</router-link>
+			</ul>
+		</div>-->
+	</mt-loadmore>
 	</div>
 </template>
 
 <script>
-	import '../assets/iconfont/iconfont.ttf'
-	import '../assets/iconfont/iconfont.woff'
+	import '../../assets/iconfont/iconfont.ttf'
+	import '../../assets/iconfont/iconfont.woff'
 	import axios from 'axios'
 	import Vue from 'vue'
 	
 	import GoodsList from '../components/GoodsList.vue'
 
-	import { Swipe, SwipeItem ,Lazyload} from 'mint-ui';
+	import { Swipe, SwipeItem ,Lazyload,Loadmore,InfiniteScroll} from 'mint-ui';
 	Vue.component(Swipe.name, Swipe);
 	Vue.component(SwipeItem.name, SwipeItem);
 	Vue.use(Lazyload);
+	Vue.component(Loadmore.name, Loadmore);
+	Vue.use(InfiniteScroll);
 	
 	export default{
 		data(){
@@ -79,12 +104,40 @@
 				timelimitedbuy_img4: '',
 				update: '',
 				goodslist: [],
-				sortlist: ["打底裤","居家拖鞋","打底裤袜","蔬菜罐头","生鲜蔬果","袜子","保暖内衣","打底衫"]
+				sortlist: ["打底裤","居家拖鞋","打底裤袜","蔬菜罐头","生鲜蔬果","袜子","保暖内衣","打底衫"],
+				isShowloading: true,
+				allLoaded: false,
+				moveTranslate: 0,
+				topStatus: '',
+				loading: false
 			}
 		},
 		components:{
 			
 			GoodsList
+		},
+		methods:{
+			loadTop(){
+				console.log(0)
+			},
+			loadBottom(){
+				console.log(1)
+			},
+			handleTopChange(status) {
+		        this.moveTranslate = 1;
+		        this.topStatus = status;
+		   	},
+		   	loadMore() {
+			  	this.loading = true;
+			  	setTimeout(() => {
+				  	axios.get('/vip/recommlist-refresh.php')
+						.then((res)=>{
+							const data = res.data.data.goods;
+							this.goodslist = this.goodslist.concat(data);
+						});
+						this.loading = false;
+			  	},1500)
+			}
 		},
 		mounted(){
 			axios.get('/vip/recommend.php')
@@ -98,17 +151,19 @@
 					this.timelimitedbuy_img3 = this.timelimitedbuy.data[1].child[1].pic;
 					this.timelimitedbuy_img4 = this.timelimitedbuy.data[1].child[2].pic;
 					this.update = res.data.data.block[0].multi_block[3].data[0].child[0].pic;
+					this.isShowloading = false;
 				});
 			axios.get('/vip/recommlist.php')
 				.then((res)=>{
 					this.goodslist = res.data.data.goods;
+					this.isShowloading = false;
 				});
 		}
 	}
 </script>
 
 <style lang="scss">
-	@import '../styles/yo/usage/core/reset';
+	@import '../../styles/yo/usage/core/reset';
 	
 	.recomm{
 	    width: 100%;
@@ -143,6 +198,7 @@
 	        .timelimitedbuy{
 	            width: 100%;
 	            @include flexbox();
+	            background: #fff;
 	            .timelimitedbuy-left{
 	                @include border(0 1px 0 0,#ebebeb);
 	                img{
@@ -164,9 +220,15 @@
 	                    width: 100%;
 	                    @include flexbox();
 	                    @include border(1px 0 0 0,#ebebeb);
-	                    img{
-	                        @include flex();
-	                        height: 1.16rem;
+	                    div{	                    	
+	                    	img{
+	                    	    @include flex();
+	                    	    width: 100%;
+	                    	    height: 1.16rem;
+	                    	}
+	                    	&:first-child{
+	                    		@include border(0 1px 0 0,#ebebeb);
+	                    	}
 	                    }
 	                }
 	            }
@@ -192,5 +254,66 @@
 	            }
 	        }
 	    }
+	    .list{
+            width: 100%;
+            margin-top: .02rem;
+            ul{
+            	display: flex;
+            	flex-wrap: wrap;
+                li{                                
+                    width: 50%;
+                    height: 2.445rem;
+                    background: #fff;
+                    border-bottom: .02rem solid #f4f4f8;
+                    position: relative;
+                    >img{
+                        width: 100%;
+                    }
+                    p{
+                        &:nth-of-type(1){
+                            font-size: .12rem;
+                            line-height: .12rem;
+                            color: #eb5655;
+                            padding: .13rem 0 0 .085rem;
+                        }
+                        &:nth-of-type(2){
+                            font-size: .11rem;
+                            line-height: .12rem;
+                            padding: .115rem .085rem 0;
+                            display: flex;
+                            span{
+                            	flex: 1;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+                            i{
+                                color: #c5c5c5;
+                            }
+                        }
+                    }
+                    .shop_logo{
+                        width: .5rem;
+                        height: .25rem;
+                        top: 1.74rem;
+                        left: 1.285rem;
+                        background: #fff;
+                        z-index: 100;
+                        border-bottom: .01rem solid #f4f4f8;
+                        position: absolute;
+                        img{
+                            width: .49rem;
+                            height: .24rem;
+                        }
+                    }
+                    &:nth-child(odd){
+                        border-right: .01rem solid #f4f4f8;
+                    }
+                    &:nth-child(even){
+                        border-right: .01rem solid #f4f4f8;
+                    }
+                }
+            }
+        }
 	}
 </style>

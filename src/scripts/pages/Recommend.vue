@@ -1,5 +1,4 @@
 <template lang="html">
-	<!--<Index>-->
 		<div class="recommend">
 			<header>
 				<div class="search">				
@@ -33,23 +32,20 @@
 			</section>
 		
 		</div>
-	<!--</Index>-->
 </template>
 
 <script>
-	import '../assets/iconfont/iconfont.ttf'
-	import '../assets/iconfont/iconfont.woff'
+	import '../../assets/iconfont/iconfont.ttf'
+	import '../../assets/iconfont/iconfont.woff'
 	import axios from 'axios'
 	import Vue from 'vue'
 	import Index from './Index.vue'
-	import mHeader from './Header.vue'	
+	import mHeader from '../components/Header.vue'	
 	import GoodsList from '../components/GoodsList.vue'
 
 	import { Swipe, SwipeItem ,Lazyload} from 'mint-ui';
 	Vue.component(Swipe.name, Swipe);
 	Vue.component(SwipeItem.name, SwipeItem);
-	
-//	import { Lazyload } from 'mint-ui';
 	Vue.use(Lazyload);
 	
 	export default{

@@ -10,9 +10,8 @@
 </template>
 
 <script>
-	import '../assets/iconfont/iconfont.ttf'
-	import '../assets/iconfont/iconfont.woff'
-	import mHeader from '../pages/Header.vue'
+	import '../../assets/iconfont/iconfont.ttf'
+	import '../../assets/iconfont/iconfont.woff'
 	export default{
 		data(){
 			return {
@@ -20,8 +19,6 @@
 			}
 		},
 		components:{
-			
-			mHeader
 			
 		}
 	}

@@ -29,15 +29,12 @@
 </template>
 
 <script>
-	export default{
-		data(){
-			return {
-				
-			}
-		}
-	}
+	import '../../assets/iconfont/iconfont.ttf'
+	import '../../assets/iconfont/iconfont.woff'
 </script>
 
 <style lang="scss">
+	@import '../../styles/yo/usage/core/reset';
+	
 	
 </style>
