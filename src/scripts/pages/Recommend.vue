@@ -22,7 +22,7 @@
 						<router-link to="/globalShop" tag="li">美妆</router-link>
 						<router-link to="/globalShop" tag="li">美食</router-link>
 						<router-link to="/globalShop" tag="li">全球购</router-link>
-						<router-link to="/globalShop" tag="li">精品配饰</router-link>
+						<router-link to="/ornament" tag="li">精品配饰</router-link>
 						<router-link to="/globalShop" tag="li">即将上线</router-link>
 					</ul>
 				</div>

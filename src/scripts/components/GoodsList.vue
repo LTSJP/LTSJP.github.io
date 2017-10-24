@@ -1,13 +1,11 @@
 <template>
 	<div class="goodslist">
 		<div class="listtitle">
-			<router-link to="/adpage" tag="img" :src="upDate"></router-link>
+			<router-link to="/adpage" tag="img" :src="update"></router-link>
 		</div>
 		<div class="list">
-			<ul v-infinite-scroll="loadMore"
-  infinite-scroll-disabled="loading"
-  infinite-scroll-distance="10">
-				<router-link to="/adpage" tag="li" v-for="(val,i) in goodslist" :key="i" >
+			<ul >
+				<router-link to="/adpage" tag="li" v-for="(val,i) in goodsList" :key="i" >
 					<img v-lazy="val.pic_url"/>
 					<p>{{val.coupon_tips}}</p>
 					<p>
@@ -27,16 +25,12 @@
 	import axios from 'axios'
 	export default {
 	    props: {
-	  		upDate:{
+	  		update:{
 	  			type: String,
 	  	  		required: true
 	  		},
-	    	goodsListUrl: {
-	      		type: String,
-	      		required: true
-	    	},
-	    	refreshUrl: {
-	    		type: Object,
+	    	goodsList: {
+	      		type: Array,
 	      		required: true
 	    	}
 	  	},
@@ -47,25 +41,13 @@
 	    	}
 	  	},
 	    methods:{
-		   	loadMore() {
-			  	this.loading = true;
-			  	setTimeout(() => {
-				  	axios.get('/vip/'+ this.refreshUrl + '.php')
-						.then((res)=>{
-							const data = res.data.data.goods;
-							this.goodslist = this.goodslist.concat(data);
-							this.loading = false;
-						});
-			  	},1500)
-			  	
-			}
+		   	
 		},
 	  mounted(){
-	  	console.log(this.refreshUrl)
-	  	axios.get('/vip/'+this.goodsListUrl+'.php')
-			.then((res)=>{
-				this.goodslist = res.data.data.goods;
-			});
+//	  	axios.get('/vip/'+this.goodsListUrl+'.php')
+//			.then((res)=>{
+//				this.goodslist = res.data.data.goods;
+//			});
 	  }
 	}
 </script>

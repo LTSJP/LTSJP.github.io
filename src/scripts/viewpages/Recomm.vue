@@ -46,7 +46,7 @@
 			</div>
 		</div>
 		<!--商品列表-->
-		<GoodsList :goodsListUrl="'recommlist'" :upDate="update"></GoodsList>
+		<GoodsList :goodsList="goodslist" :update="update"></GoodsList>
 		<!--分类-->
 		<div class="sort">
 			<ul>
@@ -54,8 +54,8 @@
 			</ul>
 		</div>
 		<!--商品列表2-->
-		<GoodsList :goodsListUrl="'recommlist'" :upDate="update" :refreshUrl="'recommlist-refresh'"></GoodsList>
-		<!--<div class="list">
+		<!--<GoodsList :goodsListUrl="'recommlist'" :upDate="update" :refreshUrl="'recommlist-refresh'"></GoodsList>-->
+		<div class="list">
 			<ul  v-infinite-scroll="loadMore"
   infinite-scroll-disabled="loading"
   infinite-scroll-distance="10">
@@ -71,7 +71,7 @@
 					</div>
 				</router-link>
 			</ul>
-		</div>-->
+		</div>
 	</mt-loadmore>
 	</div>
 </template>
