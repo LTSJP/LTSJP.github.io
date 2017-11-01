@@ -1,6 +1,5 @@
 <template>
 	<div class="recomm" v-if="!isShowloading">
-	<mt-loadmore :top-method="loadTop" :bottom-method="loadBottom" :bottom-all-loaded="allLoaded" @top-status-change="handleTopChange" ref="loadmore" >
 		<!--banner-->
 		<div class="banner">
 			<mt-swipe :auto="4000">
@@ -50,16 +49,14 @@
 		<!--分类-->
 		<div class="sort">
 			<ul>
-				<router-link to="/adpage" tag="li" v-for="(val,i) in sortlist" :key="i">{{val}}</router-link>
+				<router-link to="/" tag="li" v-for="(val,i) in sortlist" :key="i">{{val}}</router-link>
 			</ul>
 		</div>
 		<!--商品列表2-->
-		<!--<GoodsList :goodsListUrl="'recommlist'" :upDate="update" :refreshUrl="'recommlist-refresh'"></GoodsList>-->
+		<!--<GoodsList :goodsList="goodslist" :update="update" ></GoodsList>-->
 		<div class="list">
-			<ul  v-infinite-scroll="loadMore"
-  infinite-scroll-disabled="loading"
-  infinite-scroll-distance="10">
-				<router-link to="/adpage" tag="li" v-for="(val,i) in goodslist" :key="i" >
+			<ul >
+				<router-link to="/" tag="li" v-for="(val,i) in goodslist" :key="i" >
 					<img v-lazy="val.pic_url"/>
 					<p>{{val.coupon_tips}}</p>
 					<p>
@@ -72,7 +69,6 @@
 				</router-link>
 			</ul>
 		</div>
-	</mt-loadmore>
 	</div>
 </template>
 
@@ -117,26 +113,26 @@
 			GoodsList
 		},
 		methods:{
-			loadTop(){
-				console.log(0)
-			},
-			loadBottom(){
-				console.log(1)
-			},
-			handleTopChange(status) {
-		        this.moveTranslate = 1;
-		        this.topStatus = status;
-		   	},
-		   	loadMore() {
-			  	this.loading = true;
-			  	setTimeout(() => {
-				  	axios.get('/vip/recommlist-refresh.php')
-						.then((res)=>{
-							const data = res.data.data.goods;
-							this.goodslist = this.goodslist.concat(data);
-						});
-						this.loading = false;
-			  	},1500)
+//		   	loadMore() {
+//			  	this.loading = true;
+//			  	console.log(1)
+//			  	setTimeout(() => {
+//				  	axios.get('/vip/recommlist-refresh.php')
+//						.then((res)=>{
+//							const data = res.data.data.goods;
+//							this.goodslist = this.goodslist.concat(data);
+//						});
+//						this.loading = false;
+//			  	},1500)
+//			}
+		},
+		computed:{
+			getgoodslist(){
+				axios.get('/vip/recommlist.php')
+				.then((res)=>{
+					this.goodslist = res.data.data.goods;
+					this.isShowloading = false;
+				});
 			}
 		},
 		mounted(){
@@ -153,11 +149,8 @@
 					this.update = res.data.data.block[0].multi_block[3].data[0].child[0].pic;
 					this.isShowloading = false;
 				});
-			axios.get('/vip/recommlist.php')
-				.then((res)=>{
-					this.goodslist = res.data.data.goods;
-					this.isShowloading = false;
-				});
+				
+			this.getgoodslist;
 		}
 	}
 </script>

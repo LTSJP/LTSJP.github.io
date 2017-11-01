@@ -13,5 +13,42 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
-  router
+  router,
+  store
 })
+
+//自定义指令 scoll
+Vue.directive('scroll', {
+  bind: function (el, binding) {
+    //定义指令
+    var func = binding.value;
+    el.addEventListener('scroll', function () {
+      
+      if (parseInt(el.scrollTop) >= 1000) {
+        func().show();
+      }else{
+        func().hide();
+      }
+    })
+ 
+  },
+//unbind: function(el,binding){
+//	el.removeEventListener('scroll',function(){
+//		
+//	})
+//}
+});
+
+Vue.directive('click', {
+  bind: function (el, binding) {
+    el.addEventListener('click',function(){
+    	el.scrollTop = binding.value
+    })
+  },
+//unbind: function(el,binding){
+//	el.removeEventListener('scroll',function(){
+//		
+//	})
+//}
+});
+

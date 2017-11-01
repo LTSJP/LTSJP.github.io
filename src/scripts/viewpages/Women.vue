@@ -1,5 +1,6 @@
 <template lang="html">
-  <div class="women">
+	<div >
+  <div class="women" v-if="!isShowLoading">
     <div class="banner">
       <mt-swipe :auto="4000">
         <mt-swipe-item  v-for="(item,index) in balist" :key="index">
@@ -23,9 +24,14 @@
       </div>
     </div>
     <div id="abc">
-      <GoodsList :goodsList="goodslist" :update="ad"></GoodsList>
+      <GoodsList :goodsList="goodslist" :update="ad" ></GoodsList>
     </div>
   </div>
+  <div class="yo-loading yo-loading-a" v-if="isShowLoading">
+    <i class="yo-ico"></i>
+    <div class="text">加载中...</div>
+  </div>
+</div>
 </template>
 
 <script type="text/javascript">
@@ -45,7 +51,8 @@
         activityleft: '',
         activityright: [],
         ad:'',
-        goodslist: []
+        goodslist: [],
+        isShowLoading:true
       }
     },
     components: {
@@ -59,20 +66,23 @@
           this.activityleft = res.data.data.block[0].multi_block[3].data[0].child[0].pic
           this.activityright = res.data.data.block[0].multi_block[3].data[1].child
           this.ad = res.data.data.block[0].multi_block[4].data[0].child[0].pic
-          console.log(this.ad);
+          this.isShowLoading = false
+          //        console.log(this.ad);
           // console.log(res.data.data.block[0].multi_block[4].data[0].child[0].pic);
         }),
       axios.get('./vip/womengoods.php')
         .then((res)=>{
           this.goodslist = res.data.data.goods
           // console.log(res.data.data.goods)
-        })
+        });
+        
     }
   })
 </script>
 
 <style media="screen" lang="scss">
   @import "../../styles/yo/usage/core/reset.scss";
+  @import "../../styles/yo/usage/component/loading.scss";
   .women{
     width: 100%;
     .banner{
@@ -87,9 +97,9 @@
       width: 100%;
       height: auto;
       @include flexbox();
+      @include flex-direction(row);
       flex-wrap: wrap;
       li{
-        float: left;
         width: 25%
       }
       img{

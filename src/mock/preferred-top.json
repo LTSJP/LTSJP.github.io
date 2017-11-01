@@ -1,0 +1,278 @@
+{
+  "code": "1000",
+  "info": "",
+  "data": {
+    "slide_ads": [],
+    "top_ads": [],
+    "block": [
+      {
+        "block_id": "396",
+        "multi_block": [
+          {
+            "show_type": "1",
+            "width": "1",
+            "margin_enabled": "0",
+            "data": [
+              {
+                "cell": "col",
+                "height": "0.1333",
+                "width": "1",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods2.juancdn.com/jas/170829/2/6/59a51122a9fcf87fea4afbe4_1080x144.png?imageMogr2/quality/85!/format/png",
+                    "url": "qimi://juanpi?type=58&content={\"item\":\"is_preferred\",\"info\":\"1\"}",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "12766",
+                    "new_product": [],
+                    "x_record": "1_1",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4305::img_id::12766::1_1\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              }
+            ],
+            "split_line": "0",
+            "split_color": "",
+            "height": "0.1333",
+            "block_type": "1"
+          },
+          {
+            "show_type": "1",
+            "width": "1",
+            "margin_enabled": "0",
+            "data": [
+              {
+                "cell": "col",
+                "height": "0.3704",
+                "width": "1",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods5.juancdn.com/jas/170829/9/e/59a511f28150a17a085fcc8b_1080x400.png?iopcmd=convert&Q=85&dst=png",
+                    "url": "",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "11893",
+                    "new_product": [],
+                    "x_record": "2_1",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4024::img_id::11893::2_1\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              }
+            ],
+            "split_line": "0",
+            "split_color": "",
+            "height": "0.3704",
+            "block_type": "1"
+          },
+          {
+            "show_type": "1",
+            "width": "1",
+            "margin_enabled": "0",
+            "data": [
+              {
+                "cell": "col",
+                "height": "0.2991",
+                "width": "0.3333",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods3.juancdn.com/jas/171011/4/0/59dd7410a9fcf8121c787129_360x323.jpg?iopcmd=convert&Q=85&dst=jpg",
+                    "url": "qimi://juanpi?type=35&content={\"url\":\"http://web.juanpi.com/youxuan/category?cid=1859&scene_key=yx_shry&title=生活日用 \",\"title\":\"生活日用\",\"titles\":\"生活日用\"}",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "13510",
+                    "new_product": [],
+                    "x_record": "3_1",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4562::img_id::13510::3_1\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              },
+              {
+                "cell": "col",
+                "height": "0.2991",
+                "width": "0.3333",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods4.juancdn.com/jas/171013/7/4/59e01919a9fcf892fd284507_360x323.jpg?imageMogr2/quality/85!/format/jpg",
+                    "url": "qimi://juanpi?type=35&content={\"url\":\"http://web.juanpi.com/youxuan/category?cid=1860&scene_key=yx_mzgh&title=美妆个护 \",\"title\":\"美妆个护\",\"titles\":\"美妆个护\"}",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "13511",
+                    "new_product": [],
+                    "x_record": "3_2",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4562::img_id::13511::3_2\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              },
+              {
+                "cell": "col",
+                "height": "0.2991",
+                "width": "0.3333",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods7.juancdn.com/jas/171011/d/f/59dd7435a9fcf889196cde93_360x323.jpg?iopcmd=convert&Q=85&dst=jpg",
+                    "url": "qimi://juanpi?type=35&content={\"url\":\"http://web.juanpi.com/youxuan/category?cid=1855&scene_key=yx_ccyj&title=餐厨用具 \",\"title\":\"餐厨用具\",\"titles\":\"餐厨用具\"}",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "13512",
+                    "new_product": [],
+                    "x_record": "3_3",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4562::img_id::13512::3_3\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              }
+            ],
+            "split_line": "0",
+            "split_color": "",
+            "height": "0.2991",
+            "block_type": "5"
+          },
+          {
+            "show_type": "1",
+            "width": "1",
+            "margin_enabled": "0",
+            "data": [
+              {
+                "cell": "col",
+                "height": "0.2991",
+                "width": "0.3333",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods2.juancdn.com/jas/171011/3/5/59dd74488150a138fc719c25_360x323.jpg?imageMogr2/quality/85!/format/jpg",
+                    "url": "qimi://juanpi?type=35&content={\"url\":\"http://web.juanpi.com/youxuan/category?cid=1856&scene_key=yx_qjsn&title=清洁收纳 \",\"title\":\"清洁收纳\",\"titles\":\"清洁收纳\"}",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "13513",
+                    "new_product": [],
+                    "x_record": "4_1",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4563::img_id::13513::4_1\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              },
+              {
+                "cell": "col",
+                "height": "0.2991",
+                "width": "0.3333",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods6.juancdn.com/jas/171013/b/a/59e0192fa9fcf865e43359b5_360x323.jpg?imageMogr2/quality/85!/format/jpg",
+                    "url": "qimi://juanpi?type=35&content={\"url\":\"http://web.juanpi.com/youxuan/category?cid=1858&scene_key=yx_fzjf&title=服饰家纺 \",\"title\":\"服饰家纺\",\"titles\":\"服饰家纺\"}",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "13514",
+                    "new_product": [],
+                    "x_record": "4_2",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4563::img_id::13514::4_2\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              },
+              {
+                "cell": "col",
+                "height": "0.2991",
+                "width": "0.3333",
+                "child": [
+                  {
+                    "cell": "row",
+                    "background": "",
+                    "width": "1",
+                    "height": "1",
+                    "pic": "https://goods5.juancdn.com/jas/171013/8/c/59e0193f8150a15a9a74a78d_360x323.jpg?iopcmd=convert&Q=85&dst=jpg",
+                    "url": "qimi://juanpi?type=35&content={\"url\":\"http://web.juanpi.com/youxuan/category?cid=1857&scene_key=yx_psxb&title=配饰箱包 \",\"title\":\"配饰箱包\",\"titles\":\"配饰箱包\"}",
+                    "countdown": {
+                      "enable_time": "0",
+                      "start_time": "",
+                      "end_time": "",
+                      "start_text": "",
+                      "end_text": ""
+                    },
+                    "bd_id": "13515",
+                    "new_product": [],
+                    "x_record": "4_3",
+                    "activityname": "click_cube_block",
+                    "server_jsonstr": "{\"pit_info\":\"ad_id::396::block_id::4563::img_id::13515::4_3\",\"cid\":\"\",\"_t\":1509160463,\"_z\":\"5\",\"ab_info\":null}"
+                  }
+                ]
+              }
+            ],
+            "split_line": "0",
+            "split_color": "",
+            "height": "0.2991",
+            "block_type": "5"
+          }
+        ],
+        "block_background_color": "",
+        "block_background_image": ""
+      }
+    ],
+    "show_index": "2"
+  }
+}

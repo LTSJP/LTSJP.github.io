@@ -1,0 +1,401 @@
+{
+  "code": "1000",
+  "info": "",
+  "data": {
+    "slide_ads": {
+      "config": {
+        "slide": []
+      }
+    },
+    "top_ads": [],
+    "block": [{
+      "block_id": "297",
+      "multi_block": [{
+          "width": "1",
+          "height": "0.387",
+          "show_type": "8",
+          "block_type": "18",
+          "margin_enabled": "0",
+          "switch_enabled": "1",
+          "data": {
+            "child": [{
+                "pic": "https://goods7.juancdn.com/jas/171024/d/c/59ee99a6a9fcf8a3de4311a6_1080x418.png?iopcmd=convert&Q=85&dst=png",
+                "jump_url": "qimi://juanpi?type=23&content=586014_3072123",
+                "url": "586014_3072123",
+                "bd_id": "14156",
+                "x_record": "1_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::4717::img_id::14156::1_1\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "https://goods6.juancdn.com/jas/171024/a/a/59ee9a3e8150a170ae28f342_1080x418.png?imageMogr2/quality/85!/format/png",
+                "jump_url": "qimi://juanpi?type=23&content=608467_3152238",
+                "url": "608467_3152238",
+                "bd_id": "14156",
+                "x_record": "1_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::4717::img_id::14156::1_2\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "https://goods8.juancdn.com/jas/171025/e/2/59f0271ca9fcf81da0137fed_1080x418.jpg?imageMogr2/quality/85!/format/jpg",
+                "jump_url": "qimi://juanpi?type=23&content=634571_3713209",
+                "url": "634571_3713209",
+                "bd_id": "14156",
+                "x_record": "1_3",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::4717::img_id::14156::1_3\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              },
+              {
+                "pic": "https://goods3.juancdn.com/jas/171025/5/e/59f02a758150a16c212d63e6_1080x418.png?iopcmd=convert&Q=85&dst=png",
+                "jump_url": "qimi://juanpi?type=23&content=641558_3465202",
+                "url": "641558_3465202",
+                "bd_id": "14156",
+                "x_record": "1_4",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::4717::img_id::14156::1_4\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }
+            ]
+          }
+        },
+        {
+          "show_type": "1",
+          "width": "1",
+          "margin_enabled": "0",
+          "data": [{
+              "cell": "col",
+              "height": "0.265",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods5.juancdn.com/bao/170310/8/e/58c28768a43d1f2fc032d7e6_200x212.png?iopcmd=convert&Q=85&dst=png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"饼干糕点\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=469&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"469\",\"item\":\"469\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9259",
+                "new_product": [],
+                "x_record": "2_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3250::img_id::9259::2_1\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            },
+            {
+              "cell": "col",
+              "height": "0.265",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods4.juancdn.com/bao/170602/6/4/593109dead0a4961128b45c7_200x212.png?imageMogr2/quality/85!/format/png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"蜜饯果脯\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=1785&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1785\",\"item\":\"1785\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9260",
+                "new_product": [],
+                "x_record": "2_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3250::img_id::9260::2_2\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            },
+            {
+              "cell": "col",
+              "height": "0.265",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods1.juancdn.com/bao/170310/0/5/58c28798ad0a4914988b457b_200x212.png?iopcmd=convert&Q=85&dst=png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"坚果炒货\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=468&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"468\",\"item\":\"468\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9261",
+                "new_product": [],
+                "x_record": "2_3",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3250::img_id::9261::2_3\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            },
+            {
+              "cell": "col",
+              "height": "0.265",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods3.juancdn.com/bao/170602/5/e/5931119bad0a499d158b45b7_200x212.png?iopcmd=convert&Q=85&dst=png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"进口美食\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=1786&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1786\",\"item\":\"1786\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9262",
+                "new_product": [],
+                "x_record": "2_4",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3250::img_id::9262::2_4\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            }
+          ],
+          "split_line": "0",
+          "split_color": "",
+          "height": "0.265",
+          "block_type": "6"
+        },
+        {
+          "show_type": "1",
+          "width": "1",
+          "margin_enabled": "0",
+          "data": [{
+              "cell": "col",
+              "height": "0.2625",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods2.juancdn.com/bao/170330/3/2/58dcc612a43d1f390c1fa3f4_200x210.png?imageMogr2/quality/85!/format/png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"肉类熟食\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=1403&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1403\",\"item\":\"1403\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9263",
+                "new_product": [],
+                "x_record": "3_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3251::img_id::9263::3_1\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            },
+            {
+              "cell": "col",
+              "height": "0.2625",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods8.juancdn.com/bao/170310/f/b/58c287d9ad0a4986988b4573_200x212.png?imageMogr2/quality/85!/format/png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"滋补保健\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=471&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"471\",\"item\":\"471\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9264",
+                "new_product": [],
+                "x_record": "3_2",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3251::img_id::9264::3_2\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            },
+            {
+              "cell": "col",
+              "height": "0.2625",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods6.juancdn.com/bao/170511/a/a/59143086ad0a49009b8b45b5_200x212.png?imageMogr2/quality/85!/format/png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"粮油生鲜\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=1713&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1713\",\"item\":\"1713\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9265",
+                "new_product": [],
+                "x_record": "3_3",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3251::img_id::9265::3_3\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            },
+            {
+              "cell": "col",
+              "height": "0.2625",
+              "width": "0.25",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods4.juancdn.com/jas/170912/6/3/59b7c3518150a14c1f3b27a1_200x212.png?imageMogr2/quality/85!/format/png",
+                "url": "qimi://juanpi?type=50&content={\"title\":\"酒水冲调\",\"link\":\"https://mapi.juanpi.com/goods/zhe/list?cid=475&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"475\",\"item\":\"475\"}",
+                "countdown": {
+                  "enable_time": "",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "9266",
+                "new_product": [],
+                "x_record": "3_4",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3251::img_id::9266::3_4\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            }
+          ],
+          "split_line": "0",
+          "split_color": "",
+          "height": "0.2625",
+          "block_type": "6"
+        },
+        {
+          "show_type": "1",
+          "width": "1",
+          "margin_enabled": "10",
+          "data": [{
+              "cell": "col",
+              "height": "0.6074",
+              "width": "0.5",
+              "child": [{
+                "cell": "row",
+                "background": "",
+                "width": "1",
+                "height": "1",
+                "pic": "https://goods3.juancdn.com/jas/171024/4/0/59ee96e18150a103940728a3_540x656.png?iopcmd=convert&Q=85&dst=png",
+                "url": "qimi://juanpi?type=1&content=https://mact.juanpi.com/cqjh?mobile=1&qmshareview=1",
+                "countdown": {
+                  "enable_time": "0",
+                  "start_time": "",
+                  "end_time": "",
+                  "start_text": "",
+                  "end_text": ""
+                },
+                "bd_id": "14153",
+                "new_product": [],
+                "x_record": "4_1",
+                "activityname": "click_cube_block",
+                "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::4716::img_id::14153::4_1\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+              }]
+            },
+            {
+              "cell": "col",
+              "height": "0.6074",
+              "width": "0.5",
+              "child": [{
+                  "cell": "row",
+                  "background": "",
+                  "width": "1",
+                  "height": "0.5",
+                  "pic": "https://goods4.juancdn.com/jas/171024/6/2/59ee9762a9fcf8a0ca4a27ba_540x328.png?imageMogr2/quality/85!/format/png",
+                  "url": "qimi://juanpi?type=77&content={\"title\":\"特惠吃\",\"module\":\"FoodIndex\",\"version\":\"1009\",\"params\":\"{\\\"page_type\\\":\\\"shuiguo\\\",\\\"cid\\\":\\\"psg_jingxuan\\\"}\",\"bak_url\":\"\"}",
+                  "countdown": {
+                    "enable_time": "0",
+                    "start_time": "",
+                    "end_time": "",
+                    "start_text": "",
+                    "end_text": ""
+                  },
+                  "bd_id": "14154",
+                  "new_product": [],
+                  "x_record": "4_2",
+                  "activityname": "click_cube_block",
+                  "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::4716::img_id::14154::4_2\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+                },
+                {
+                  "cell": "row",
+                  "background": "",
+                  "width": "1",
+                  "height": "0.5",
+                  "pic": "https://goods8.juancdn.com/jas/171024/f/3/59eea4038150a1718b27b2eb_540x328.png?imageMogr2/quality/85!/format/png",
+                  "url": "qimi://juanpi?type=23&content=625451_3681261",
+                  "countdown": {
+                    "enable_time": "0",
+                    "start_time": "",
+                    "end_time": "",
+                    "start_text": "",
+                    "end_text": ""
+                  },
+                  "bd_id": "14155",
+                  "new_product": [],
+                  "x_record": "4_3",
+                  "activityname": "click_cube_block",
+                  "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::4716::img_id::14155::4_3\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+                }
+              ]
+            }
+          ],
+          "split_line": "1",
+          "split_color": "",
+          "height": "0.6074",
+          "block_type": "4"
+        },
+        {
+          "show_type": "1",
+          "width": "1",
+          "margin_enabled": "10",
+          "data": [{
+            "cell": "col",
+            "height": "0.128",
+            "width": "1",
+            "child": [{
+              "cell": "row",
+              "background": "",
+              "width": "1",
+              "height": "1",
+              "pic": "https://goods1.juancdn.com/bao/170310/0/f/58c20db7a43d1f63427015d8_750x96.jpg?iopcmd=convert&Q=85&dst=jpg",
+              "url": "",
+              "countdown": {
+                "enable_time": "0",
+                "start_time": "",
+                "end_time": "",
+                "start_text": "",
+                "end_text": ""
+              },
+              "bd_id": "9305",
+              "new_product": [],
+              "x_record": "5_1",
+              "activityname": "click_cube_block",
+              "server_jsonstr": "{\"pit_info\":\"ad_id::297::block_id::3270::img_id::9305::5_1\",\"cid\":\"318\",\"_t\":1509088515,\"_z\":\"5\",\"ab_info\":null}"
+            }]
+          }],
+          "split_line": "0",
+          "split_color": "",
+          "height": "0.128",
+          "block_type": "1"
+        }
+      ],
+      "block_background_color": "",
+      "block_background_image": ""
+    }],
+    "show_index": "2"
+  }
+}

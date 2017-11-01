@@ -33,17 +33,31 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
     	'/api': {
-        target: 'https://api.douban.com/',
+        target: 'https://mapi.juanpi.com/',
         changeOrigin: true,
         pathRewrite: {
           '^/api': ''
         }
-      },
+     },
       '/vip': {
-        target: 'http://localhost:9000/',
+        target: 'http://10.9.164.30:9000/',
         changeOrigin: true,
         pathRewrite: {
           '^/vip': ''
+        }
+      },
+      '/apj': {
+        target: 'https://detail-api.juanpi.com',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/apj': ''
+        }
+      },
+      '/jp':{
+        target: 'https://mapi.juanpi.com/goods/discount/',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/jp': ''
         }
       }
     },

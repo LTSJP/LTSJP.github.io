@@ -82,6 +82,7 @@
       width: 100%;
       height: auto;
       @include flexbox();
+      @include flex-direction(row);
       flex-wrap: wrap;
       li{
         float: left;

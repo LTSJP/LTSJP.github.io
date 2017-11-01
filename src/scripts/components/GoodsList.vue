@@ -1,11 +1,13 @@
 <template>
 	<div class="goodslist">
 		<div class="listtitle">
-			<router-link to="/adpage" tag="img" :src="update"></router-link>
+			<router-link to="/" tag="img" :src="update"></router-link>
 		</div>
 		<div class="list">
-			<ul >
-				<router-link to="/adpage" tag="li" v-for="(val,i) in goodsList" :key="i" >
+			<ul  v-infinite-scroll="loadMore"
+  infinite-scroll-disabled="loading"
+  infinite-scroll-distance="10">
+				<router-link to="/" tag="li" v-for="(val,i) in goodsList" :key="i" >
 					<img v-lazy="val.pic_url"/>
 					<p>{{val.coupon_tips}}</p>
 					<p>
@@ -36,23 +38,35 @@
 	  	},
 	  	data(){
 	    	return {
-	      	goodslist:[],
-	      	loading: false
+		      	goodslist:[],
+		      	loading: false
 	    	}
 	  	},
 	    methods:{
 		   	
+	    	loadMore() {
+				  	this.loading = true;
+				  	setTimeout(() => {
+//				  		this.goodsList = this.goodsList.concat(this.goodsList);
+//					  	axios.get('/vip/recommlist-refresh.php')
+//							.then((res)=>{
+//								const data = res.data.data.goods;
+//								this.goodslist = this.goodslist.concat(data);
+//							});
+//							this.loading = false;
+				  	},1500)
+				}
+   
 		},
 	  mounted(){
-//	  	axios.get('/vip/'+this.goodsListUrl+'.php')
-//			.then((res)=>{
-//				this.goodslist = res.data.data.goods;
-//			});
+//	  	console.log(this.goodsList)
+
 	  }
 	}
 </script>
 
 <style lang="scss">
+	@import '../../styles/yo/usage/core/reset';
 	.goodslist{
         padding-top: .1rem;
         background: #f4f4f8;

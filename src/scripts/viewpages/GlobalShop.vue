@@ -1,6 +1,6 @@
 <template>
 	<div class="globalShop">
-					
+		全球购	
 	</div>
 </template>
 
