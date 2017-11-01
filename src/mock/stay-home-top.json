@@ -1,0 +1,290 @@
+{
+	"code": "1000",
+	"info": "",
+	"data": {
+		"slide_ads": {
+			"config": {
+				"slide": []
+			}
+		},
+		"top_ads": [],
+		"block": [
+			{
+				"block_id": "299",
+				"multi_block": [
+					{
+						"show_type": "1",
+						"width": "1",
+						"margin_enabled": "0",
+						"data": [
+							{
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods7.juancdn.com\/jas\/170801\/d\/d\/59805ceca9fcf89b0a23c89a_200x212.jpg?iopcmd=convert&Q=85&dst=jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u5e8a\u54c1\u70ed\u9500\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=1806&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1806\",\"item\":\"1806\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9133",
+										"new_product": [],
+										"x_record": "1_1",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3207::img_id::9133::1_1\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}, {
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods2.juancdn.com\/jas\/170801\/2\/4\/59805c98a9fcf8576470de15_200x212.jpg?imageMogr2\/quality\/85!\/format\/jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u7eb8\u54c1\u7206\u6b3e\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=1303&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1303\",\"item\":\"1303\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9134",
+										"new_product": [],
+										"x_record": "1_2",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3207::img_id::9134::1_2\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}, {
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods5.juancdn.com\/jas\/170801\/9\/f\/59805d12a9fcf84bab7f57d4_200x212.jpg?iopcmd=convert&Q=85&dst=jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u767e\u8d27\u529b\u8350\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=1298&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1298\",\"item\":\"1298\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9135",
+										"new_product": [],
+										"x_record": "1_3",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3207::img_id::9135::1_3\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}, {
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods6.juancdn.com\/jas\/170801\/a\/7\/59805d388150a16892619475_200x212.jpg?imageMogr2\/quality\/85!\/format\/jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u9910\u53a8\u7cbe\u9009\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=1300&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1300\",\"item\":\"1300\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9136",
+										"new_product": [],
+										"x_record": "1_4",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3207::img_id::9136::1_4\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}
+						],
+						"split_line": "0",
+						"split_color": "",
+						"height": "0.265",
+						"block_type": "6"
+					}, {
+						"show_type": "1",
+						"width": "1",
+						"margin_enabled": "0",
+						"data": [
+							{
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods3.juancdn.com\/jas\/170801\/5\/b\/59805de78150a168614f8ff6_200x212.jpg?iopcmd=convert&Q=85&dst=jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u88ab\u5b50\u6bef\u5b50\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=2009&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"2009\",\"item\":\"2009\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9141",
+										"new_product": [],
+										"x_record": "2_1",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3210::img_id::9141::2_1\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}, {
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods4.juancdn.com\/jas\/170801\/7\/5\/59805dc98150a1682720c5b5_200x212.jpg?imageMogr2\/quality\/85!\/format\/jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u6d17\u62a4\u6e05\u6d01\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=2012&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"2012\",\"item\":\"2012\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9142",
+										"new_product": [],
+										"x_record": "2_2",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3210::img_id::9142::2_2\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}, {
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods6.juancdn.com\/jas\/170801\/b\/a\/59805e0aa9fcf84c0b1cc79d_200x212.jpg?imageMogr2\/quality\/85!\/format\/jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u6536\u7eb3\u6574\u7406\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=1302&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1302\",\"item\":\"1302\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9143",
+										"new_product": [],
+										"x_record": "2_3",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3210::img_id::9143::2_3\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}, {
+								"cell": "col",
+								"height": "0.265",
+								"width": "0.25",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods5.juancdn.com\/jas\/170801\/8\/3\/59805e2b8150a1693930fcc7_200x212.jpg?iopcmd=convert&Q=85&dst=jpg",
+										"url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u5bb6\u88c5\u5bb6\u5177\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=1299&app_name=zhe&fgoods_id=&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&utm=${jpUtm}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&zy_ids=${jpZYIDS}&msort=${msort}&modulecatbi=${jpMODULECATBI}&price_range=${price_range}&cat_threeids=${cat_threeids}&xunsou=50&filter_id=${filter_id}\",\"hide_ads\":0,\"cid\":\"1299\",\"item\":\"1299\"}",
+										"countdown": {
+											"enable_time": "",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9144",
+										"new_product": [],
+										"x_record": "2_4",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3210::img_id::9144::2_4\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}
+						],
+						"split_line": "0",
+						"split_color": "",
+						"height": "0.265",
+						"block_type": "6"
+					}, {
+						"show_type": "1",
+						"width": "1",
+						"margin_enabled": "10",
+						"data": [
+							{
+								"cell": "col",
+								"height": "0.128",
+								"width": "1",
+								"child": [
+									{
+										"cell": "row",
+										"background": "",
+										"width": "1",
+										"height": "1",
+										"pic": "https:\/\/goods1.juancdn.com\/bao\/170310\/0\/f\/58c20db7a43d1f63427015d8_750x96.jpg?iopcmd=convert&Q=85&dst=jpg",
+										"url": "",
+										"countdown": {
+											"enable_time": "0",
+											"start_time": "",
+											"end_time": "",
+											"start_text": "",
+											"end_text": ""
+										},
+										"bd_id": "9308",
+										"new_product": [],
+										"x_record": "3_1",
+										"activityname": "click_cube_block",
+										"server_jsonstr": "{\"pit_info\":\"ad_id::299::block_id::3272::img_id::9308::3_1\",\"cid\":\"1295\",\"_t\":1508720359,\"_z\":\"5\",\"ab_info\":\"364_105_modulead1295\"}"
+									}
+								]
+							}
+						],
+						"split_line": "0",
+						"split_color": "",
+						"height": "0.128",
+						"block_type": "1"
+					}
+				],
+				"block_background_color": "",
+				"block_background_image": ""
+			}
+		],
+		"show_index": "2"
+	}
+}

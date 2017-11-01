@@ -1,0 +1,50 @@
+{
+	"code": "1000",
+	"info": "",
+	"data": {
+		"list": [
+			{
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u5c45\u5bb6\u62d6\u978b\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=1793&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":1793,\"item\":\"1793\"}",
+				"text": "\u5c45\u5bb6\u62d6\u978b",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"1793\",\"ab_info\":\"310_98_124\"}"
+			}, {
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u6253\u5e95\u88e4\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=253&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":253,\"item\":\"253\"}",
+				"text": "\u6253\u5e95\u88e4",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"253\",\"ab_info\":\"310_98_124\"}"
+			}, {
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u68c9\u62d6\u978b\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=305&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":305,\"item\":\"305\"}",
+				"text": "\u68c9\u62d6\u978b",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"305\",\"ab_info\":\"310_98_124\"}"
+			}, {
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u889c\u5b50\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=172&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":172,\"item\":\"172\"}",
+				"text": "\u889c\u5b50",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"172\",\"ab_info\":\"310_98_124\"}"
+			}, {
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u4fdd\u6696\u5185\u8863\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=255&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":255,\"item\":\"255\"}",
+				"text": "\u4fdd\u6696\u5185\u8863",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"255\",\"ab_info\":\"310_98_124\"}"
+			}, {
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u6253\u5e95\u88e4\u889c\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=465&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":465,\"item\":\"465\"}",
+				"text": "\u6253\u5e95\u88e4\u889c",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"465\",\"ab_info\":\"310_98_124\"}"
+			}, {
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u6253\u5e95\u886b\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=252&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":252,\"item\":\"252\"}",
+				"text": "\u6253\u5e95\u886b",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"252\",\"ab_info\":\"310_98_124\"}"
+			}, {
+				"jump_url": "qimi:\/\/juanpi?type=50&content={\"title\":\"\u9488\u7ec7\u886b\",\"link\":\"https:\/\/mapi.juanpi.com\/goods\/zhe\/list?cid=251&app_name=zhe&platform=${jpPlatform}&page=${page}&app_version=${jpAppVersion}&user_group=${jpUserGroup}&goods_utype=${jpGoodsUtype}&user_label=${jpUSERLABEL}&xunsou=50&msort=${msort}\",\"hide_ads\":0,\"cid\":251,\"item\":\"251\"}",
+				"text": "\u9488\u7ec7\u886b",
+				"activityname": "click_goods_category",
+				"server_jsonstr": "{\"cid\":\"251\",\"ab_info\":\"310_98_124\"}"
+			}
+		],
+		"margin_top": "10"
+	}
+}
